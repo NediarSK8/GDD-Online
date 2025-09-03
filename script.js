@@ -56,4 +56,3 @@ document.addEventListener('DOMContentLoaded', function() {
             console.error('Falha ao carregar o GDD:', error);
             container.innerHTML = '<h1>Erro ao carregar o GDD. Verifique o console para mais detalhes.</h1>';
         });
-});
