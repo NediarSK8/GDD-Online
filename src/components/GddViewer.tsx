@@ -7,7 +7,7 @@ const GddViewer = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    fetch('/gdd.json')
+    fetch(`${import.meta.env.BASE_URL}gdd.json`)
       .then((response) => {
         if (!response.ok) {
           throw new Error('Erro na rede: ' + response.statusText);
