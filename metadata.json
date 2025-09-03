@@ -1,0 +1,5 @@
+{
+  "name": "GDD Static Viewer",
+  "description": "A static, read-only viewer for the Game Design Document and Script. This version does not include AI features or editing capabilities.",
+  "requestFramePermissions": []
+}
